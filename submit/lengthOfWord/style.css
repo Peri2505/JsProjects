@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 500px;
+  margin: auto;
+  border: 3px darkgray solid;
+  border-radius: 5px;
+}
+.container {
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}

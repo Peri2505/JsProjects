@@ -1,0 +1,21 @@
+body {
+  display: flex;
+
+  justify-content: center;
+}
+.wrapper {
+  width: 500px;
+  background-color: rgb(173, 96, 96);
+  padding: 20px 30px;
+  margin-top: 50px;
+}
+button {
+  background-color: rgb(168, 69, 69);
+  color: wheat;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+input {
+  padding: 8px 5px;
+  border-radius: 5px;
+}
