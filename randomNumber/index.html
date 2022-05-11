@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="main-wrapper">
-      <h1></h1>
-      <div class="wrapper"></div>
+    <div>Random Number: <span id="randomNum"></span></div>
+    <div class="container">
+      <label for="lowLimit">Lower Limit</label>
+      <input type="number" id="lowLimit" />
+      <label for="upLimit">Upper Limit</label>
+      <input type="number" id="upLimit" />
+      <div>
+        <button id="generateBtn" onclick="generateRandomNum()">Generate</button>
+        <button id="clearBtn" onclick="clearInput()">Clear</button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
