@@ -14,11 +14,6 @@ function generateRandomNum() {
       Math.floor((maxNum - minNum + 1) * Math.random()) + minNum;
     randomNumSpan.innerHTML = randomNum;
   }
-  /* 
-    let step1 = maxNum - minNum 
-    let step2 = Math.random() * step1
-    let random = Math.floor(step2) + minNum
-     */
 }
 
 function clearInput() {
